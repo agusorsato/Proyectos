@@ -1,0 +1,7 @@
+DESDE CMD poner python -m
+
+
+selenium
+python -m  pip install bs4 - beautifulsoup4
+python -m  pip install XlsxWriter - xlsxwriter
+python -m  pip install lxml
