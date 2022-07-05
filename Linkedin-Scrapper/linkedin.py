@@ -82,5 +82,5 @@ class Linkedin():
         data_frame = pd.DataFrame(read)
         newData = pd.DataFrame(data, columns=['title', 'number', 'datetime'])
         new_dataF = pd.concat([data_frame, newData])
-        new_dataF.to_excel(r'...linkedin-analisis-puestos\linkedin-scrapper.xlsx', index=False)
+        new_dataF.to_excel(r'...linkedin-analisis-puestos\linkedin-scrapper.xlsx', sheet_name='DATOS', index=False)
         print("!!!!!! Informacion Capturada desde insert data REYYY !!!!!! \n", new_dataF)
