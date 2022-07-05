@@ -6,7 +6,7 @@ def main():
 	apiMain = api.API()
 	analsisMain = analisis.analisis()
 	apiMain.getData()
-	analsisMain.leer_json(r'C:\Users\Agustin Orsato\Devs\ejemplo\Proyectos\Api Clima\analisis-cordoba.xlsx')
+	analsisMain.leer_json('...\Api Clima\analisis-cordoba.xlsx')
 
 
 

@@ -16,7 +16,7 @@ class analisis:
 
         ## escribimos la informacion en un excel
         def writeData(self):
-            workbook = xlsxwriter.Workbook(r'C:\Users\Agustin Orsato\Devs\ejemplo\Proyectos\Api Clima\analisis-cordoba.xlsx')
+            workbook = xlsxwriter.Workbook('....\Api Clima\analisis-cordoba.xlsx')
             worksheet = workbook.add_worksheet('location')
             bold = workbook.add_format({'bold': True})
             worksheet.write(0,0,'name',bold)
