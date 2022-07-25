@@ -1,0 +1,5 @@
+SELECT * FROM public.base_table;
+SELECT * FROM public.cant_cat_table;
+SELECT * FROM public.cant_fuente_table;
+SELECT * FROM public.cant_provcat_table;
+SELECT * FROM public.cine_table
